@@ -127,8 +127,8 @@ String Gui::getTimeForm() {
 String Gui::createStyleSheet() {
   String content = "";
 
-  content += "body { font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif; background-color: #eee; color: #333;}";
-  content += "nav { position: fixed; top: 0; left: 0; right: 0; background-color: #3d72a8; list-style: none; margin: 0; display: flex;}";
+  content += "body { font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif; background-color: #b3b3b3; color: #1a1a1a;}";
+  content += "nav { position: fixed; top: 0; left: 0; right: 0; background-color: #00ff00; list-style: none; margin: 0; display: flex;}";
   content += "nav li  {margin: 0; padding: 10px; flex: 1; text-align: center; color: #eee; cursor: pointer; }";
   content += "nav li.icon { padding: 6px; width: 50px; flex-grow: 0; flex-shrink: 0; flex-basis: 50px; cursor: inherit; }";
   content += "nav li.icon img { vertical-align: middle; }";
@@ -139,18 +139,18 @@ String Gui::createStyleSheet() {
   content += "main { margin-top: 60px; }";
   content += "section { display: none; }";
   content += "section.active { display: block; }";
-  content += "section div { color: #3d72a8; margin-bottom: 20px; }";
+  content += "section div { color: #00ff00; margin-bottom: 20px; }";
   content += "section div label { display: block; font-size: 0.8em; margin-bottom: 5px; }";
-  content += "section div input { display: block; background-color:#fff; width: 100%; border: 0; padding: 0; margin: 0; border-bottom: 1px solid #3d72a8; height: 30px; }";
-  content += "section div select { display: block; background-color:#fff; width: 100%; border: 0; padding: 0; margin: 0; border-bottom: 1px solid #3d72a8; height: 30px; }";
+  content += "section div input { display: block; background-color:#fff; width: 100%; border: 0; padding: 0; margin: 0; border-bottom: 1px solid #00ff00; height: 30px; }";
+  content += "section div select { display: block; background-color:#fff; width: 100%; border: 0; padding: 0; margin: 0; border-bottom: 1px solid #00ff00; height: 30px; }";
   content += "section div input[type=\"color\"] { border: 0; }";
   content += "section div div.time { display: flex; }";
   content += "section div div.time span { flex-basis: 20px; text-align: center; font-weight: bold; font-size: 1.3em; }";
   content += "section div div.time select { display: inline-block; flex: 1; }";
-  content += "#reset_wifi { background-color: #3d72a8; border: 0; width: 100%; color: #eee; padding: 10px; cursor: pointer; }";
+  content += "#reset_wifi { background-color: #00ff00; border: 0; width: 100%; color: #eee; padding: 10px; cursor: pointer; }";
   content += "#reset_wifi_message { display: none; text-align: center;}";
-  content += "footer { position: fixed; bottom: 0; left: 0; right: 0; background-color: #3d72a8; text-align: right; }";
-  content += "footer button { background-color: #3d72a8; color: #eee; border: 0; padding: 15px; text-transform: uppercase; font-weight: bold; }";
+  content += "footer { position: fixed; bottom: 0; left: 0; right: 0; background-color: #00ff00; text-align: right; }";
+  content += "footer button { background-color: #00ff00; color: #eee; border: 0; padding: 15px; text-transform: uppercase; font-weight: bold; }";
   content += "footer button:hover,footer button:active { color: #ccc; cursor: pointer; }";
 
   return content;
